@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RTL2</title>
+    <meta charset="UTF-8"/>
+    <!-- Meta Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <!-- App info -->
+    <meta name="description" content="Listen to RTL2 Radio" />
+    <meta name="author" content="Antoine Turmel" />
+    <link rel="stylesheet" href="switches.css">
+    <link rel="stylesheet" media="all" href="style.css"/>
+    <link rel="icon" type="image/png" id="favicon" href="images/favicon.png"/>
+    <link rel="apple-touch-icon" href="images/favicon.png">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  
+  <body>
+    <div id="header">
+    RTL2 - Le son pop-rock
+    </div>
+    <div id="content">
+
+      <div class="rounded" id="play">
+        <div class="playBtn">
+          <a href="#" title="Lancer la lecture" onClick="playradio()"></a>
+        </div>
+      </div>
+      <div class="rounded" id="pause">
+        <div class="pauseBtn">
+          <a href="#" title="Mettre en pause" onClick="pauseradio()"></a>
+        </div>
+      </div>      
+      <div id="details">
+        <div id="song">
+        </div>
+        <div id="artist">
+        </div>
+      </div>
+    </div>
+    
+    <div id="footer">
+      <label class="negative">
+        <input name="notifibox" type="checkbox">
+        <span></span>
+      </label>Notifications
+      <hr/>
+      <p><a href="http://www.rtl2.fr" title="Site web RTL2" target="_blank">Site Web RTL2</a></p> 
+    </div>
+
+  </body>
+  
+</html>
