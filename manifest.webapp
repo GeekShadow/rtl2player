@@ -1,5 +1,5 @@
 {
-  "version": "0.3.1",
+  "version": "0.3.2",
   "name": "RTL2 Player",
   "description": "RTL2 Radio player",
   "launch_path": "/rtl2player",
@@ -10,13 +10,19 @@
   "icons": {
     "128": "/rtl2player/images/favicon.png",
     "64": "/rtl2player/images/icon-64.png",
+    "60": "/rtl2player/images/icon-60.png",
     "48": "/rtl2player/images/icon-48.png",
     "32": "/rtl2player/images/icon-32.png",
     "16": "/rtl2player/images/icon-16.png"
   },
   "orientation": ["portrait","landscape"],
-  "fullscreen": "false",
+  "fullscreen": false,
   "permissions": {
-    "audio-channel-content":{"description":  "Use the audio channel for playing radio"}
+    "audio-channel-content":{
+      "description":  "Use the audio channel for playing radio"
+    },
+    "desktop-notification": {
+      "description": "Used to display artist/title notifications"
+    }
   }
 }

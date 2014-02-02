@@ -9,4 +9,4 @@ ARTIST=$(sed -n '/<p class="animateurs">.*<\/p>/s/[^>]*>\([^<]*\)<.*/\1/p' index
 echo $SONG > song.txt
 echo $ARTIST > artist.txt
 # remove index.html
-rm index.html
+rm index.html*
