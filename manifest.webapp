@@ -16,7 +16,7 @@
     "16": "/rtl2player/images/icon-16.png"
   },
   "orientation": ["portrait","landscape"],
-  "fullscreen": false,
+  "fullscreen": "false",
   "permissions": {
     "audio-channel-content":{
       "description":  "Use the audio channel for playing radio"
