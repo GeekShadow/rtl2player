@@ -37,7 +37,7 @@ function loadArtistSong () {
 
 // Player JS
 var playing = false
-var nectaaudio = new Audio("http://ais.rtl.fr:80/rtl2-1-48-128.ogg");
+var nectaaudio = new Audio("http://streaming.radio.rtl2.fr/rtl2-1-48-192");
 nectaaudio.mozAudioChannelType = "content";
 
 function playradio() {
