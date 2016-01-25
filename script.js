@@ -18,7 +18,7 @@ setInterval(function() {
       //alert(currentsong);
       if (navigator.mozNotification) {
         document.body.classList.add("notification");
-        notification = navigator.mozNotification.createNotification("RTL2 Player", $('#artist').text() + " - " + $('#song').text(), "http://geekshadow.github.com/rtl2player/images/favicon.png");
+        notification = navigator.mozNotification.createNotification("RTL2 Player", $('#artist').text() + " - " + $('#song').text(), "http://geekshadow.github.io/rtl2player/images/favicon.png");
         notification.show();
         }
      }
@@ -48,12 +48,6 @@ function playradio() {
     document.getElementById('pause').style.display='block';
     document.getElementById('play').style.visibility='hidden';
     document.getElementById('play').style.display='none';
-
-    if (navigator.mozNotification) {
-      document.body.classList.add("notification");
-      notification = navigator.mozNotification.createNotification("RTL2 Player", "Lecture en cours", "http://geekshadow.github.com/rtl2player/images/favicon.png");
-      notification.show();
-    }
 }
 
 function pauseradio() {
